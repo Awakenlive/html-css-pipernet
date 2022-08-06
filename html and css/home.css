@@ -1,0 +1,179 @@
+@import url("normalize.css");
+header{
+  background-color: #007765;
+  width: 100%;
+  height: 84px;
+  display: inline-block;
+}
+.logo{
+  float: left;
+  margin: 20px 119px 19.04px  55px;
+}
+.navigation{
+  margin-right: 55px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.links{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+}
+body{
+  max-width: 1219px;
+  font-family: "Roboto", sans-serif;
+}
+.pipernet{
+  width: 100%;
+  height: 403px;  
+  background-size: cover;
+  background-position: center;
+  background-image:url(pipernet.svg);
+  max-width: 1219px;
+}
+.textpiper{
+  display: grid;
+  align-items: top;
+  height: 100%;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  color: white;
+}
+.theproblem{
+  width: 100%;
+  height: 719px;
+  background-color: #EEEEEE;
+}
+.text_problem{
+  padding-top: 48px;
+  margin-bottom: 16px;
+  font-style: bold;
+  color: #007765;
+  width: 1107px;
+  height: 75px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+}
+.text_problem_p{
+  font-style: normal;
+  margin-right: 55px;
+  margin-left: 54px;
+  font-weight: 400px;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.hero_container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+}
+.hero_block{
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.text_hero{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center center;
+  color: #fff;
+}
+.piedpipercoin{
+  width: 100%;
+  background-color: #ffffff;
+}
+.text_piedpipercoin{
+  padding-left: 218px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+}
+.Introducing{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+.img_ppc{
+  float: left;
+  padding-right: 48px;
+}
+.the_team{
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+}
+.team_borders{
+  width: 350px;
+  height: 283px;
+}
+figure{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: -16px;
+}
+.the_team_text{
+  margin-bottom: 56px;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+.names{
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color:#007765;
+}
+figcaption{
+  align-items: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.end_container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 340px;
+  padding-right: 339px;
+}
+.end{
+  background-color: #333333;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  background-size: cover;
+  background-position: center center;
+}
+.end_txt{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
